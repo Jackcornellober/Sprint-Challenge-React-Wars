@@ -26,11 +26,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+  React JS is a JavaScript library created by the FaceBook team that aims to solve the problems that come with the ever-increasing and ever-changing flow of data that web apps need to deal with today. It introduces complex yet precise systems for passing data from the end user or from remote API's into the app.
+
 - [ ] What does it mean to _think_ in react?
+
+    To look think in React is to think about a potential app with hierarchy and a downward dataflow at the forefront of your mind - To look through the lens of what components will need to render something based on state, and which will simply need to take data from props.
 
 - [ ] Describe state.
 
+    State is an object owned by each Class extended by 'React.Component'. State contains all of the properties that will be dynamically changed during use/data flow of the app and has a lot of special properties under the hood.
+
 - [ ] Describe props.
+
+    Props is a react object that is used to pass data from the top level (app.js for example) down to its lower component levels. The top level imports data from wherever, and the bottom levels don't need to import that data because at the top level, an instance of the component in question is initialized and the data it needs is initialized as a prop. (or multiple props).
 
 ## Project Set Up
 

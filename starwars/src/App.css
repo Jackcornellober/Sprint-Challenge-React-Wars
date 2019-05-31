@@ -1,6 +1,23 @@
-.App {
+.App > h1 {
   text-align: center;
 }
+
+h2 {
+  text-align: center;
+}
+
+.head {
+  font-weight: bold;
+}
+
+ul > div {
+  margin-top: 1rem;
+}
+
+.notHead {
+  font-weight: normal;
+}
+
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
